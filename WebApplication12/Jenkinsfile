@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+
+    environment {
+        DOTNET_ROOT = "/usr/bin/dotnet"
+        DEPLOY_PATH = "/var/www/myapp"
+        SERVICE_NAME = "myapp"
+    }
+
+    stages {
+
+        stage('Restore Dependencies') {
+            steps {
+                sh 'dotnet restore'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'dotnet build --configuration Release'
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                // Publish to a temporary folder in Jenkins workspace
+                sh 'dotnet publish --configuration Release --output publish_output'
+            }
+        }
+
+        stage('Deploy to Server') {
+            steps {
+                // Copy published files to /var/www/myapp and restart the app
+                sh '''
+                echo "Stopping existing service..."
+                sudo systemctl stop ${SERVICE_NAME} || true
+
+                echo "Deploying new build..."
+                sudo rm -rf ${DEPLOY_PATH}/*
+                sudo mkdir -p ${DEPLOY_PATH}
+                sudo cp -r publish_output/* ${DEPLOY_PATH}/
+
+                echo "Starting service..."
+                sudo systemctl start ${SERVICE_NAME}
+                sudo systemctl status ${SERVICE_NAME} --no-pager
+                '''
+            }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Deployment successful!'
+        }
+        failure {
+            echo '❌ Deployment failed. Check Jenkins logs for details.'
+        }
+    }
+}
