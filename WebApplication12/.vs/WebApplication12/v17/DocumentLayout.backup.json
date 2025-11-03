@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|c:\\users\\vaishu\\source\\repos\\vaishnavi-324\\project\\webapplication12\\webapplication12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|c:\\users\\vaishu\\source\\repos\\vaishnavi-324\\project\\webapplication12\\webapplication12\\models\\empcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\models\\empcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|c:\\users\\vaishu\\source\\repos\\vaishnavi-324\\project\\webapplication12\\webapplication12\\models\\empmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\models\\empmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|c:\\users\\vaishu\\source\\repos\\vaishnavi-324\\project\\webapplication12\\webapplication12\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|c:\\users\\vaishu\\source\\repos\\vaishnavi-324\\project\\webapplication12\\webapplication12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D607EEED-6D26-4B50-BB85-E85FEDED2B8A}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication12\\appsettings.json",
+              "ToolTip": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\appsettings.json",
+              "RelativeToolTip": "WebApplication12\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T16:09:05.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Controllers\\EmpController.cs",
+              "ToolTip": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "WebApplication12\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T04:56:06.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Program.cs",
+              "ToolTip": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Program.cs",
+              "RelativeToolTip": "WebApplication12\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:22:27.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpContext.cs",
+              "DocumentMoniker": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Models\\EmpContext.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Models\\EmpContext.cs",
+              "ToolTip": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Models\\EmpContext.cs",
+              "RelativeToolTip": "WebApplication12\\Models\\EmpContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T10:48:55.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpModel.cs",
+              "DocumentMoniker": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Models\\EmpModel.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Models\\EmpModel.cs",
+              "ToolTip": "C:\\Users\\VAISHU\\source\\repos\\Vaishnavi-324\\Project\\WebApplication12\\WebApplication12\\Models\\EmpModel.cs",
+              "RelativeToolTip": "WebApplication12\\Models\\EmpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T10:44:26.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
