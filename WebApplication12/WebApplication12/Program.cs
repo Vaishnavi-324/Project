@@ -13,7 +13,7 @@ public class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<EmpContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default Connection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
         var app = builder.Build();
